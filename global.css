@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: white;
+}
+
+body {
+  background-image: url(assets/homeimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 4rem 7.2rem;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+ul {
+  display: flex;
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  gap: 3.2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #c4c4cc;
+}
+
+.buttonHome.active {
+  font-weight: bold;
+  color: white;
+}
+
+.buttonUniverse.active {
+  font-weight: bold;
+  color: white;
+}
+
+.buttonExploration.active {
+  font-weight: bold;
+  color: white;
+}
