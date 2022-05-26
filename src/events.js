@@ -1,8 +1,5 @@
+import { buttonHome, buttonUniverse, buttonExploration } from './elements.js'
 export function Events() {
-  const buttonHome = document.querySelector('.buttonHome')
-  const buttonUniverse = document.querySelector('.buttonUniverse')
-  const buttonExploration = document.querySelector('.buttonExploration')
-
   buttonHome.addEventListener('click', () => {
     buttonHome.classList.add('active')
     buttonUniverse.classList.remove('active')
